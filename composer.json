@@ -30,7 +30,7 @@
         "drupal/memcache": "8.*",
         "drupal/file_entity": "8.*",
         "drupal/better_exposed_filters": "8.*",
-        "drupal/bootstrap": "8.*",
+        "drupal/bootstrap": "8.*"
     },
     "require-dev": {
         "drupal/site_audit": "8.*",
