@@ -1,6 +1,6 @@
 {
     "name": "mydropteam/dropstart",
-    "description": "a composer based blueprint to start Drupal 8 projects, works as an addon to drupal-composer/drupal-project",
+    "description": "a composer based blueprint to start Drupal 8 projects with default modules, works as an addon to mydropteam/drupal-project",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -10,32 +10,31 @@
         }
     ],
     "require": {
+        "drupal/admin_toolbar": "8.*",
+        "drupal/better_exposed_filters": "8.*",
+        "drupal/bootstrap": "8.*",
+        "drupal/bootstrap_layouts": "8.*",
+        "drupal/config_update": "8.*",
+        "drupal/date": "8.*",
+        "drupal/diff": "8.*",
+        "drupal/ds": "8.*",
+        "drupal/entity": "8.*",
+        "drupal/field_group": "8.*",
+        "drupal/file_entity": "8.*",
+        "drupal/inline_entity_form": "8.*",
+        "drupal/memcache": "8.*",
+        "drupal/metatag": "8.*",
+        "drupal/page_manager": "8.*",
+        "drupal/panels": "8.*",
+        "drupal/paragraphs": "8.*",
         "drupal/pathauto": "8.*",
         "drupal/redirect": "8.*",
         "drupal/restui": "8.*",
-        "drupal/token": "8.*",
-        "drupal/inline_entity_form": "8.*",
-        "drupal/entity": "8.*",
-        "drupal/field_group": "8.*",
-        "drupal/metatag": "8.*",
-        "drupal/admin_toolbar": "8.*",
-        "drupal/paragraphs": "8.*",
-        "drupal/panels": "8.*",
-        "drupal/ds": "8.*",
-        "drupal/bootstrap_layouts": "8.*",
-        "drupal/config_update": "8.*",
-        "drupal/page_manager": "8.*",
-        "drupal/diff": "8.*",
-        "drupal/date": "8.*",
-        "drupal/memcache": "8.*",
-        "drupal/file_entity": "8.*",
-        "drupal/better_exposed_filters": "8.*",
-        "drupal/bootstrap": "8.*"
+        "drupal/token": "8.*"
     },
     "require-dev": {
-        "drupal/site_audit": "8.*",
-        "drupal/devel": "8.*",
         "drupal/coder": "8.*",
-        "drupal/migrate_plus": "8.*"
+        "drupal/devel": "8.*",
+        "drupal/migrate_plus": "8.*",
     }
 }
