@@ -35,6 +35,6 @@
     "require-dev": {
         "drupal/coder": "8.*",
         "drupal/devel": "8.*",
-        "drupal/migrate_plus": "8.*",
+        "drupal/migrate_plus": "8.*"
     }
 }
