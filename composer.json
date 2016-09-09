@@ -33,9 +33,9 @@
         "drupal/token": "8.*"
     },
     "require-dev": {
-        "drupal/coder": "8.*",
-        "drupal/devel": "8.*",
-        "drupal/migrate_plus": "8.*"
+        "drupal/coder": "~8.2.8",
+        "drupal/devel": "~8.1.*",
+        "drupal/migrate_plus": "~8.2.*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
